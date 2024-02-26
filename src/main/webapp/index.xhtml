@@ -10,6 +10,13 @@
         <h:form>
             <h:outputText value="#{jsfOi.oi}"/>
         </h:form>
+        <h:form>
+            <h:inputText value="#{jsfLocal.valor}"/>
+            <br/>
+            <h:outputText value="#{jsfLocal.resultado}"/>
+            <br/>
+            <h:commandButton action="#{jsfLocal.dobrar()}" value="Dobrar"/>
+        </h:form>
     </h:body>
 </html>
 
